@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WithoutStream {
-    public static void start(List<Integer> numbers) {
+    public void start(List<Integer> numbers) {
         ArrayList<Integer> sortedNumbers = new ArrayList<>();
         for (int num : numbers) {
             if (num > 0 && num % 2 == 0) {
