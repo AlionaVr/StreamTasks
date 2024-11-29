@@ -1,4 +1,4 @@
-package src.t4_PopulationCensus;
+package src.streamAndLambda.t4_PopulationCensus;
 
 class Person {
     private String name;

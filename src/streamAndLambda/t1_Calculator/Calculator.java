@@ -1,4 +1,4 @@
-package src.t1_Calculator;
+package src.streamAndLambda.t1_Calculator;
 
 import java.util.function.*;
 

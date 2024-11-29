@@ -1,4 +1,4 @@
-package src.t2_WorkWIthNumbers;
+package src.streamAndLambda.t2_WorkWIthNumbers;
 
 
 import java.util.Arrays;

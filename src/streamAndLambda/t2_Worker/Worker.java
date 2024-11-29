@@ -1,4 +1,4 @@
-package src.t2_Worker;
+package src.streamAndLambda.t2_Worker;
 
 public class Worker {
 

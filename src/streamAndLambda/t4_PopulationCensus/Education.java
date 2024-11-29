@@ -1,4 +1,4 @@
-package src.t4_PopulationCensus;
+package src.streamAndLambda.t4_PopulationCensus;
 
 public enum Education {
     ELEMENTARY,
