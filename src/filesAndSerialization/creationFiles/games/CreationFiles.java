@@ -1,23 +1,21 @@
-package serialization.games;
+package src.filesAndSerialization.creationFiles.games;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class CreationFiles {
     static StringBuilder textDate = new StringBuilder();
 
     public static void main(String[] args) {
         CreationFiles creator = new CreationFiles();
-        String basePath = "F:\\Projects\\JavaCoreTasks\\serialization\\games";
-        creator.makeDir(basePath, "src");
+        String basePath = "F:\\Projects\\JavaCoreTasks\\src\\filesAndSerialization\\creationFiles\\games";
+        creator.makeDir(basePath, "src1");
         creator.makeDir(basePath, "res");
         creator.makeDir(basePath, "savegames");
         creator.makeDir(basePath, "temp");
 
-        String srcPath = basePath + "\\src";
+        String srcPath = basePath + "\\src1";
         creator.makeDir(srcPath, "main");
         creator.makeDir(srcPath, "test");
 
