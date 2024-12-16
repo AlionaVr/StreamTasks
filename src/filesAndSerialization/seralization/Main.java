@@ -15,5 +15,10 @@ public class Main {
         String zipPath = path + "\\zip.zip";
         save.zipFiles(zipPath, path);
         save.deleteFile(path);
+
+        Reading reader = new Reading();
+        reader.openZip(zipPath, path);
+        System.out.println("\nЗагруженный прогресс: " + reader.openProgress(path).toString());
+
     }
 }

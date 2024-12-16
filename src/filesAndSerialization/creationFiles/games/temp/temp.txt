@@ -1,0 +1,12 @@
+Создан катaлог src1
+Создан катaлог res
+Создан катaлог savegames
+Создан катaлог temp
+Создан катaлог main
+Создан катaлог test
+создан файл Main.java
+создан файл Utils.java
+Создан катaлог drawables
+Создан катaлог vectors
+Создан катaлог icons
+создан файл temp.txt
